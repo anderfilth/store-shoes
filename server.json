@@ -1,0 +1,312 @@
+{
+  "stock": [
+    {
+      "id": 0,
+      "amount": 3
+    },
+    {
+      "id": 1,
+      "amount": 5
+    },
+    {
+      "id": 2,
+      "amount": 2
+    },
+    {
+      "id": 3,
+      "amount": 1
+    },
+    {
+      "id": 4,
+      "amount": 5
+    },
+    {
+      "id": 5,
+      "amount": 10
+    },
+    {
+      "id": 6,
+      "amount": 3
+    },
+    {
+      "id": 7,
+      "amount": 5
+    },
+    {
+      "id": 8,
+      "amount": 2
+    },
+    {
+      "id": 9,
+      "amount": 1
+    },
+    {
+      "id": 10,
+      "amount": 5
+    },
+    {
+      "id": 11,
+      "amount": 10
+    },
+    {
+      "id": 12,
+      "amount": 5
+    },
+    {
+      "id": 13,
+      "amount": 2
+    },
+    {
+      "id": 14,
+      "amount": 1
+    },
+    {
+      "id": 15,
+      "amount": 5
+    },
+    {
+      "id": 16,
+      "amount": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "sku": 8552515751438644,
+      "title": "Camisa Nike Corinthians I",
+      "description": "14/15 s/nº",
+      "availableSizes": ["S", "G", "GG", "GGG"],
+      "style": "Branco com listras pretas",
+      "price": 229.9,
+      "installments": 9,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camisa-corinthians-i-1920-sn-estadio-nike-masculina/28/HZM-1536-028/HZM-1536-028_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 1,
+      "sku": 18644119330491312,
+      "title": "Camisa Nike Corinthians II",
+      "description": "14/15 s/nº",
+      "availableSizes": ["S", "G", "GG", "GGG"],
+      "style": "Preta com listras brancas",
+      "price": 229.9,
+      "installments": 9,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camisa-corinthians-ii-1920-sn-torcedor-nike-masculina/26/HZM-1596-026/HZM-1596-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "Camisa Feminina Nike Corinthians I",
+      "description": "14/15 s/nº",
+      "availableSizes": ["S", "G"],
+      "style": "Branco com listras pretas",
+      "price": 199.9,
+      "installments": 7,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camisa-corinthians-treino-1920-nike-masculina/10/HZM-0808-310/HZM-0808-310_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "Camisa Feminina Nike Corinthians II",
+      "description": "2014 s/nº",
+      "availableSizes": ["S", "G"],
+      "style": "Preto com listras brancas",
+      "price": 199.9,
+      "installments": 7,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camisa-corinthians-ii-1920-sn-torcedor-nike-feminina/26/HZM-1601-026/HZM-1601-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 4,
+      "sku": 9197907543445677,
+      "title": "Camisa Nike Corinthians I",
+      "description": "14/15 s/nº - Jogador",
+      "availableSizes": ["GG"],
+      "style": "Branco com listras pretas",
+      "price": 349.9,
+      "installments": 12,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": false,
+      "image": "https://static.netshoes.com.br/produtos/camisa-corinthians-iii-invasoes-1920-torcedor-sn-nike-masculina/26/HZM-2023-026/HZM-2023-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "Kit Corinthians - Camisa Nike II",
+      "description": "14/15 + Camiseta 1º Mundial",
+      "availableSizes": ["S", "G", "GG"],
+      "style": "Preto",
+      "price": 229.9,
+      "installments": 9,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": false,
+      "image": "https://static.netshoes.com.br/produtos/camisa-corinthians-iii-1920-torcedor-sn-nike-masculina-invasoes-all-patches/26/HZM-2515-026/HZM-2515-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "Calção Nike Corinthians",
+      "description": "Goleiro 13/14",
+      "availableSizes": ["GG", "GGG"],
+      "style": "Branco",
+      "price": 49.9,
+      "installments": 0,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/calcao-corinthians-i-1920-nike-masculino/26/HZM-1525-026/HZM-1525-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 7,
+      "sku": 18532669286405342,
+      "title": "Camisa Corinthians Réplica",
+      "description": "1977 Infantil",
+      "availableSizes": ["S"],
+      "style": "Preto com listras brancas",
+      "price": 109.9,
+      "installments": 4,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camisa-corinthians-i-1920-sn-torcedor-nike-masculina/28/HZM-1555-028/HZM-1555-028_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "Calção Nike Strike Lgr Woven",
+      "description": "",
+      "availableSizes": ["GG"],
+      "style": "Azul escuro",
+      "price": 119.9,
+      "installments": 4,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": false,
+      "image": "https://static.netshoes.com.br/produtos/calcao-nike-dri-fit-academy-masculino/26/HZM-0829-326/HZM-0829-326_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 9,
+      "sku": 11600983276356165,
+      "title": "Jaqueta Corinthians CP",
+      "description": "",
+      "availableSizes": ["G", "GG"],
+      "style": "",
+      "price": 134.9,
+      "installments": 5,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/jaqueta-corinthians-nike-sb-shield-coachore-masculina/26/HZM-1992-026/HZM-1992-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 10,
+      "sku": 27250082398145995,
+      "title": "Jaqueta Corinthians Urban c/ Capuz",
+      "description": "",
+      "availableSizes": ["G", "GG"],
+      "style": "",
+      "price": 249.9,
+      "installments": 9,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/jaqueta-moletom-corinthians-nike-gfa-track-masculina/26/HZM-2000-026/HZM-2000-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 11,
+      "sku": 39876704341265606,
+      "title": "Jaqueta Corinthians Elite",
+      "description": "",
+      "availableSizes": ["S", "G"],
+      "style": "Preto",
+      "price": 99.9,
+      "installments": 3,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camiseta-corinthians-nike-ground-masculina/06/HZM-1532-006/HZM-1532-006_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 12,
+      "sku": 12064273040195392,
+      "title": "Tênis Nike Air Relentless",
+      "description": "4 MSL",
+      "availableSizes": ["40", "43"],
+      "style": "Cinza com símbolo laranja",
+      "price": 229.9,
+      "installments": 9,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-4-masculino/26/D12-9119-026/D12-9119-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 13,
+      "sku": 51498472915966366,
+      "title": "Tênis Nike Biscuit Canvas",
+      "description": "",
+      "availableSizes": ["41"],
+      "style": "Vermelho com detalhe em branco",
+      "price": 129.9,
+      "installments": 5,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 14,
+      "sku": 10686354557628303,
+      "title": "Camisa Nike Academy",
+      "description": "GPX Poly 1",
+      "availableSizes": ["S", "G", "GG"],
+      "style": "Vermelho com detalhe em preto",
+      "price": 99.9,
+      "installments": 3,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camiseta-corinthians-slub-nike-masculina/10/HZM-0806-010/HZM-0806-010_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 15,
+      "sku": 11033926921508487,
+      "title": "Camisa Nike Corinthians",
+      "description": "Treino 2014",
+      "availableSizes": ["S", "G", "GG", "GGG"],
+      "style": "Branco com detalhe em azul",
+      "price": 149.9,
+      "installments": 5,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camiseta-nike-corinthians-core-masculina/14/HZM-1539-014/HZM-1539-014_detalhe1.jpg?resize=280:280"
+    },
+    {
+      "id": 16,
+      "sku": 10412368723880253,
+      "title": "Camisa Polo Corinthians Ouro",
+      "description": "",
+      "availableSizes": ["S", "G", "GG"],
+      "style": "Preto com detalhe em dourado",
+      "price": 129.9,
+      "installments": 5,
+      "currencyId": "BRL",
+      "currencyFormat": "R$",
+      "isFreeShipping": true,
+      "image": "https://static.netshoes.com.br/produtos/camiseta-corinthians-evergre-nike-masculina/26/HZM-2010-026/HZM-2010-026_detalhe1.jpg?resize=280:280"
+    }
+  ]
+}
