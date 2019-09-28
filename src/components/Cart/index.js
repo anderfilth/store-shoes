@@ -31,11 +31,17 @@ export default function Cart() {
     )
   );
 
-  const installmentTotal = useSelector(state =>
+  const installmentAmount = useSelector(state => {
+    return state.cart.products.reduce((greaterInstallment, product) => {
+      return Math.max(greaterInstallment, product.installments);
+    }, 0);
+  });
+
+  const installmentValueTotal = useSelector(state =>
     formatPrice(
       state.cart.products.reduce((totalSum, product) => {
         return totalSum + product.price * product.amount;
-      }, 0) / 10
+      }, 0) / installmentAmount
     )
   );
 
@@ -136,7 +142,11 @@ export default function Cart() {
         <span>TOTAL</span>
         <div>
           <strong>{total}</strong>
-          <span>Ou 10 x de {installmentTotal}</span>
+          {installmentAmount > 0 && (
+            <span>
+              Ou {installmentAmount} x de {installmentValueTotal}
+            </span>
+          )}
         </div>
       </Total>
       <footer>

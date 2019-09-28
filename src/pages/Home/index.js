@@ -49,7 +49,12 @@ export default function Home() {
           <div>
             <span>{product.priceFormatted}</span>
           </div>
-          <span>ou 10 x de {formatPrice(product.price / 10)}</span>
+          {product.installments > 0 && (
+            <span>
+              ou {product.installments} x de{' '}
+              {formatPrice(product.price / product.installments)}
+            </span>
+          )}
 
           <button type="button" onClick={() => handleAddProduct(product.id)}>
             <div>

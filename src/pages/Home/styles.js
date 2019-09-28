@@ -31,6 +31,7 @@ export const ProductList = styled.ul`
     > div > span {
       font-size: 21px;
       color: #333;
+      margin-bottom: 15px;
     }
     button {
       background: #7159c1;
