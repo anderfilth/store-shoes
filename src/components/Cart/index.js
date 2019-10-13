@@ -82,73 +82,75 @@ export default function Cart() {
       <header>
         <div>
           <MdShoppingBasket size={40} color="#fff" />
-          <Bagde>{cartSize}</Bagde>
+          <Bagde data-testid="cart-header-badge">{cartSize}</Bagde>
         </div>
         <h1>Sacola</h1>
       </header>
-      {cart.length === 0 && (
-        <EmptyProduct>
-          <p>O carrinho está vazio</p>
-        </EmptyProduct>
-      )}
-      {cart.length > 0 && (
-        <ProductTable>
-          <tbody>
-            {cart.map(product => (
-              <tr>
-                <td>
-                  <img src={product.image} alt={product.title} />
-                </td>
-                <td>
-                  <strong>{product.title}</strong>
-                  <span>{product.style}</span>
-                  <span>{product.priceFormatted}</span>
-                </td>
-                <td>
-                  <div>
-                    <button type="button" onClick={() => decrement(product)}>
-                      <MdRemoveCircleOutline size={20} color="#fff" />
-                    </button>
-                    <input type="number" readOnly value={product.amount} />
-                    <button type="button" onClick={() => increment(product)}>
-                      <MdAddCircleOutline size={20} color="#fff" />
-                    </button>
-                  </div>
-                </td>
-                <td>
-                  <CellTotal>
+      <article data-testid="cart-article-empty-products">
+        {cart.length === 0 && (
+          <EmptyProduct>
+            <p>O carrinho está vazio</p>
+          </EmptyProduct>
+        )}
+        {cart.length > 0 && (
+          <ProductTable data-testid="cart-article-product-table">
+            <tbody>
+              {cart.map(product => (
+                <tr key={product.id}>
+                  <td>
+                    <img src={product.image} alt={product.title} />
+                  </td>
+                  <td>
+                    <strong>{product.title}</strong>
+                    <span>{product.style}</span>
+                    <span>{product.priceFormatted}</span>
+                  </td>
+                  <td>
                     <div>
-                      <button
-                        type="button"
-                        onClick={() =>
-                          dispatch(CartActions.removeFromCart(product.id))
-                        }
-                      >
-                        <MdClose size={20} color="#fff" />
+                      <button type="button" onClick={() => decrement(product)}>
+                        <MdRemoveCircleOutline size={20} color="#fff" />
+                      </button>
+                      <input type="number" readOnly value={product.amount} />
+                      <button type="button" onClick={() => increment(product)}>
+                        <MdAddCircleOutline size={20} color="#fff" />
                       </button>
                     </div>
-                    <div>
-                      <strong>{product.subtotal}</strong>
-                    </div>
-                  </CellTotal>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </ProductTable>
-      )}
+                  </td>
+                  <td>
+                    <CellTotal>
+                      <div>
+                        <button
+                          type="button"
+                          onClick={() =>
+                            dispatch(CartActions.removeFromCart(product.id))
+                          }
+                        >
+                          <MdClose size={20} color="#fff" />
+                        </button>
+                      </div>
+                      <div>
+                        <strong>{product.subtotal}</strong>
+                      </div>
+                    </CellTotal>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </ProductTable>
+        )}
 
-      <Total>
-        <span>TOTAL</span>
-        <div>
-          <strong>{total}</strong>
-          {installmentAmount > 0 && (
-            <span>
-              Ou {installmentAmount} x de {installmentValueTotal}
-            </span>
-          )}
-        </div>
-      </Total>
+        <Total data-testid="cart-article-total">
+          <span>TOTAL</span>
+          <div>
+            <strong>{total}</strong>
+            {installmentAmount > 0 && (
+              <span>
+                Ou {installmentAmount} x de {installmentValueTotal}
+              </span>
+            )}
+          </div>
+        </Total>
+      </article>
       <footer>
         <button type="button">Comprar</button>
       </footer>
