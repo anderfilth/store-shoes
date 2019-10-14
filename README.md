@@ -1,6 +1,6 @@
 # STORESHOES
 
-Um carrinho de compras simples feito em ReactJS.
+Baseado na Netshoes, um carrinho de compras feito em ReactJS.
 
 ## :computer: preview
 
