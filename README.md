@@ -55,8 +55,8 @@ Ou instale usando NPM:
 
 ```
 npm test
+```
 
 ## Contribuidor
 
 - Anderson R. Santos :point_up_2: [Contato](https://www.linkedin.com/in/anderson-ribeiro-dos-santos-a53a1a4b/)
-```
