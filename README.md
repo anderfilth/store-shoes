@@ -1,6 +1,6 @@
 # STORESHOES
 
-Esse projeto teve origem através do desafio da Netshoes, onde o objetivo é criar um carrinho de compras.
+Um carrinho de compras simples feito em ReactJS.
 
 ## :computer: preview
 
