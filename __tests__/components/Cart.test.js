@@ -7,7 +7,7 @@ import CartComponent from '~/components/Cart';
 
 jest.mock('react-redux');
 
-describe('Cart component', () => {
+describe('Test cart component - redux', () => {
   it('Deve testar a quantidade no header do componente', () => {
     useSelector.mockImplementation(cb =>
       cb({
