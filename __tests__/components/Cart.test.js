@@ -1,9 +1,10 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { render } from '@testing-library/react';
 
-// eslint-disable-next-line import/no-unresolved
 import CartComponent from '~/components/Cart';
+// import * as CartActions from '~/store/modules/cart/actions';
 
 jest.mock('react-redux');
 
@@ -96,7 +97,7 @@ describe('Test cart component - redux', () => {
     expect(productTable).toHaveTextContent('Camisa Nike Corinthians I');
     expect(productTable).toHaveTextContent('Branco com listras pretas');
     expect(productTable).toHaveTextContent('R$ 229.90');
-    expect(productTable).toHaveTextContent('R$ 459.80');
+    expect(productTable).toHaveTextContent('R$459.80');
   });
 
   it('Deve testar o total no carrinho', () => {
@@ -130,7 +131,7 @@ describe('Test cart component - redux', () => {
 
     const totalElement = getByTestId('cart-article-total');
 
-    expect(totalElement).toHaveTextContent('R$ 459.80');
-    expect(totalElement).toHaveTextContent('9 x de R$ 51.09');
+    expect(totalElement).toHaveTextContent('R$459.80');
+    expect(totalElement).toHaveTextContent('9 x de R$51.09');
   });
 });

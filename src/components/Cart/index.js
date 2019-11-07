@@ -75,7 +75,11 @@ export default function Cart() {
   return (
     <Container isOpen={isOpen}>
       <div>
-        <button type="button" onClick={() => toggleCart()}>
+        <button
+          type="button"
+          data-testid="cart-open-close"
+          onClick={() => toggleCart()}
+        >
           <MdClose size={20} color="#fff" />
         </button>
       </div>
